@@ -66,6 +66,7 @@ input{
     box-shadow: 3px 5px 6px rgb(137, 137, 137);
     transition: 0.4s;
     
+    
 }
 .add:hover{
     background-color: #005ba4;
@@ -94,4 +95,24 @@ input{
 }
 .but:hover{
     background-color: #005ba4;
+}
+.task_list{
+    width: 100%;
+    margin-top: 15px;
+    max-height: 40vh;
+    display: column;
+    overflow:auto;
+
+}
+.task{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 30px;
+    margin-top: 10px;
+    border-radius: 20px;
+    border: 2px solid black;
+    font-size: 20px;
+    text-align: start;
+    padding: 10px;
 }
