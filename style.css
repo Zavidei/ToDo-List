@@ -33,7 +33,10 @@
 @media only screen and (max-width:468px){
     .list{
         width: 90%;
-        margin-right: 40px;
+        margin: 0;
+        margin-left: auto;
+        margin-right: auto;
+      
     }
 }
 
@@ -65,7 +68,7 @@ input{
     border: 0;
     box-shadow: 3px 5px 6px rgb(137, 137, 137);
     transition: 0.4s;
-    
+    cursor: pointer;
     
 }
 .add:hover{
@@ -92,8 +95,12 @@ input{
     border: 0;
     box-shadow: 3px 5px 6px rgb(137, 137, 137);
     transition: 0.4s;
+    cursor: pointer;
 }
 .but:hover{
+    background-color: #005ba4;
+}
+.but:focus{
     background-color: #005ba4;
 }
 .task_list{
@@ -108,11 +115,33 @@ input{
     width: 90%;
     margin-left: auto;
     margin-right: auto;
-    height: 30px;
+    min-height: 30px;
+    height: auto;
     margin-top: 10px;
     border-radius: 20px;
     border: 2px solid black;
     font-size: 20px;
-    text-align: start;
+    display: flex;
+    justify-content: space-between;
     padding: 10px;
+}
+
+.check{
+    width: 30px;
+    cursor: pointer;
+}
+.trash{
+    width: 20px;
+    cursor: pointer;
+}
+
+.buttonOption{
+    display: flex;
+}
+
+.display{
+    display: block;
+}
+.noDisplay{
+    display: none;
 }
